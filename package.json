@@ -1,0 +1,14 @@
+{
+  "name": "kingsman",
+  "version": "1.0.0",
+  "description": "this is npm baby steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "consle.log('helloThere')"
+  },
+  "author": "alexander",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^5.2.3"
+  }
+}
