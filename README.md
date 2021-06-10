@@ -8,7 +8,7 @@ screenshot
 Additional description about the project and its features.
 
 # Built With
-Html + Css
+- Html + Css
 
 # Live Demo Of The Project
 https://alexander16108.github.io/destop-version/https://alexander16108.github.io/destop-version/
@@ -23,16 +23,23 @@ Use:
 
 For HTML:
 
-npx hint .
+
+- npx hint .
+
+
 For CSS:
 
-npx stylelint "**/*.{css,scss}" 
+
+- npx stylelint "**/*.{css,scss}" 
+
+
 # Deployment
 Make a pull request if your want to contribute. Thanks.
 
-#Authors
+# Authors
 👤 alexander
 
+# social media
 GitHub: @alexandder16108
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
