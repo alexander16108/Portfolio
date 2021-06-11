@@ -586,6 +586,13 @@ footer .icons li {
     flex-direction: row-reverse;
   }
 
+  .multi-story-1 img:hover,
+  .multi-story-2 img:hover,
+  .multi-story-3 img:hover,
+  .multi-story-4 img:hover {
+    transform: scale(0.9);
+  }
+
   .destop-split {
     flex-direction: column;
     align-items: flex-start;
