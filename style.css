@@ -695,7 +695,6 @@ footer .icons li {
 }
 
 @media screen and (max-width: 769px) {
-
   .chatbox,
   .hidden {
     display: none;
