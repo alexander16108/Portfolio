@@ -280,14 +280,14 @@ input[type="text"],
 input[type="email"] {
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 327px;
+  width: 20.49em;
   height: 3em;
   font-size: 15px;
   line-height: 24px;
 }
 
 textarea {
-  width: 327px;
+  width: 309px;
 }
 
 /* input[email] */
@@ -305,12 +305,7 @@ input[type="email"]::placeholder {
   border-top: 1px solid #3a3837;
 }
 
-footer {
-  width: 100%;
-}
-
 footer .icons {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
