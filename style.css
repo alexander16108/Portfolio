@@ -482,6 +482,26 @@ footer .icons li {
     padding: 10px;
   }
 
+  .icon-links li a img:hover {
+    animation-name: link-icons;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+  }
+
+  @keyframes link-icons{
+    0%{
+      transform: scale(2) rotate(360deg);
+    }
+
+    50%{
+     transform: scale(0.7);
+    }
+
+    95%, 100% {
+     transform: scale(1) rotate(360deg);
+    }
+  }
+
   .work-1 {
     text-align: left;
     margin: 0 12em 0 0;
