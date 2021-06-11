@@ -664,7 +664,7 @@ footer .icons li {
   .icons {
     padding: 0%;
     margin: 0%;
-    justify-content: right;
+    justify-content: center;
   }
 
   .icons li {
