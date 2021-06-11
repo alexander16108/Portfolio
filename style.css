@@ -5,6 +5,8 @@
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -502,7 +504,7 @@ footer .icons li {
 
   /*  second-section */
 
-  .header h1 {
+  .header .me {
     border-bottom: 1px solid rgba(100, 99, 105, 1);
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -511,6 +513,21 @@ footer .icons li {
     display: flex;
     align-items: center;
     color: #9390ff;
+  }
+
+  .header .me:hover {
+    animation-name: headerslide;
+    animation-duration: 1.5s; 
+  }
+
+  @keyframes headerslide {
+    0% {
+      transform: translateX(0) 
+    }
+
+    100% {
+      transform: translateX(30px) 
+    }
   }
 
   .blank {
