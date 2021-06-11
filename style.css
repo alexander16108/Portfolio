@@ -338,9 +338,9 @@ footer .icons li {
 
   /* general (1440px) */
 
-.destop-version {
-  padding: 1.7em;
-}
+  .destop-version {
+    padding: 1.7em;
+  }
 
   p {
     color: rgba(179, 186, 197, 1);
@@ -371,13 +371,12 @@ footer .icons li {
   .my-logo{
     padding: 8em;
   }
-  
 
   .evelope {
     padding: 0 4px;
   }
 
-  .nav-links li {
+  .right-nav li {
     color: rgba(255, 255, 255, 1);
   }
 
