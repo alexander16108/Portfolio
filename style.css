@@ -75,14 +75,14 @@ header {
   padding: 0%;
 }
 
+.my-logo {
+  margin: 0 10px;
+}
+
 .my-logo a {
   color: #ffff;
   font-size: 18px;
   text-decoration: none;
-}
-
-.my-logo {
-  margin: 0%;
 }
 
 .hamburger-menu a {
@@ -328,7 +328,7 @@ footer .icons li {
   text-align: center;
 }
 
-@media screen and (max-width: 1440px) and (min-width: 769px) {
+@media screen and (min-width: 769px) {
   /* cleahidden */
 
   .hamburger-menu,
@@ -337,6 +337,11 @@ footer .icons li {
   }
 
   /* general (1440px) */
+
+.destop-version {
+  padding: 1.7em;
+}
+
   p {
     color: rgba(179, 186, 197, 1);
   }
@@ -349,8 +354,12 @@ footer .icons li {
 
   /* header */
 
+  .nav-links li {
+    padding: 0 1.5em;
+  }
+
   .nav-links {
-    top: 1px;
+    top: 1.7em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -358,6 +367,11 @@ footer .icons li {
     position: absolute;
     right: 95px;
   }
+
+  .my-logo{
+    padding: 8em;
+  }
+  
 
   .evelope {
     padding: 0 4px;
