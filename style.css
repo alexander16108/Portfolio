@@ -15,6 +15,11 @@ body {
   margin: 0%;
 }
 
+.destop-version a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* general-button */
 
 button {
@@ -87,10 +92,10 @@ header {
 
 .hamburger-menu {
   top: 0%;
-  left: 97%;
+  left: 90%;
   display: flex;
   position: absolute;
-  padding: 7px;
+  padding: 0%;
   justify-items: end;
 }
 
@@ -343,11 +348,6 @@ footer .icons li {
   }
 
   /* header */
-
-  .destop-version a {
-    text-decoration: none;
-    color: #fff;
-  }
 
   .nav-links {
     top: 1px;
@@ -696,6 +696,7 @@ footer .icons li {
 }
 
 @media screen and (max-width: 769px) {
+
   .chatbox,
   .hidden {
     display: none;
