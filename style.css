@@ -349,14 +349,9 @@ footer .icons li {
 
   /* header */
 
-  .destop-head {
-    top: 0%;
-    order: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 114px 0;
-    left: 142px;
+  .destop-version a {
+    text-decoration: none;
+    color: #fff;
   }
 
   .nav-links {
@@ -375,6 +370,16 @@ footer .icons li {
 
   .nav-links li {
     color: rgba(255, 255, 255, 1);
+  }
+
+  .destop-head {
+    top: 0%;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 0;
+    left: 142px;
   }
 
   .destop-head h1 {
