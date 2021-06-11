@@ -18,6 +18,13 @@ body {
 .destop-version a {
   text-decoration: none;
   color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
 }
 
 /* general-button */
