@@ -17,14 +17,18 @@ Additional description about the project and its features.
 
 
 
-# Live Demo Of The Project
-https://alexander16108.github.io/destop-version/
-
 # Online version of this project 
 https://alexander16108.github.io/
 
 # Usage
 This is used for learning purposes. Feel free to collaborate.
+
+
+
+> # To clone Repository locally
+> - copy link of the repository from the the code section and copy the link (HTTP, SSH, GitHub CLI)
+> - open up your terminal or vscode and initiate your file location and paste link to clone from github
+> - once done open the newly cloned project in your vscode and start editting the code
 
 # Run tests
 To locally run tests using html and css linters.
@@ -43,14 +47,11 @@ For CSS:
 - npx stylelint "**/*.{css,scss}" 
 
 
-# Deployment
-Make a pull request if your want to contribute. Thanks.
+> # Authors
+👤 Alexander Odufuye
+- GitHub: @alexandder16108
 
-# Authors
-👤 alexander
 
-# social media
-GitHub: @alexandder16108
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
