@@ -31,13 +31,13 @@ body {
 /* general-button */
 
 button {
-  color: #f5f5ff;
+  color: #fcfcfc;
   font-size: 12px;
   padding: 12px;
   border: none;
   height: 48px;
   width: 89px;
-  background-color: rgba(112, 105, 241, 0.705);
+  background-color: rgba(113, 106, 255, 0.705);
 }
 
 .button {
@@ -55,7 +55,7 @@ button:enabled {
 button:hover {
   background-color: rgba(75, 69, 158, 3);
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(144, 137, 245,1);
+  box-shadow: 0 8px 16px 0 rgba(144, 137, 245, 1);
 }
 
 button:active {
@@ -63,7 +63,7 @@ button:active {
 }
 
 button:focus {
-  background-color:  rgba(94, 66, 225, 1);
+  background-color: rgba(94, 66, 225, 1);
 }
 
 button:disabled {
