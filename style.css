@@ -37,15 +37,15 @@ button {
   border: none;
   height: 48px;
   width: 89px;
-  background-color: rgba(125, 115, 254, 2);
-}
-
-form .button {
-  padding: 1em;
+  background-color: rgba(112, 105, 241, 0.705);
 }
 
 .button {
   padding: 15px;
+}
+
+form .button {
+  padding: 1em;
 }
 
 button:enabled {
@@ -55,14 +55,18 @@ button:enabled {
 button:hover {
   background-color: rgba(75, 69, 158, 3);
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px 0 rgba(144, 137, 245,1);
 }
 
 button:active {
   background-color: rgba(94, 66, 215, 1);
 }
 
-.button:disabled {
+button:focus {
+  background-color:  rgba(94, 66, 225, 1);
+}
+
+button:disabled {
   background-color: rgba(42, 43, 51, 1);
 }
 
