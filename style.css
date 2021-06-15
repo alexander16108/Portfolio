@@ -37,7 +37,6 @@ button {
   border: none;
   height: 48px;
   width: 89px;
-  background-color: rgba(113, 106, 255, 0.705);
 }
 
 .button {
@@ -49,7 +48,7 @@ form .button {
 }
 
 button:enabled {
-  background-color: rgba(125, 115, 252, 1);
+  background-color: rgb(17, 0, 255);
 }
 
 button:hover {
