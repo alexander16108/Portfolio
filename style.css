@@ -48,8 +48,9 @@ form .button {
 }
 
 button:enabled {
-  background-color: #0055c5;
+  background-color: rgba(75, 69, 158, 1);
   color: #ffffff;
+  box-shadow: 0 4px 13px 0 rgba(255, 255, 255, 3);
 }
 
 button:hover {
