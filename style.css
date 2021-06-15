@@ -233,7 +233,7 @@ ul li {
   grid-row-gap: 2em;
 }
 
-h2 {
+h3 {
   color: #fff;
   font-size: 32px;
   font-weight: 500;
@@ -601,7 +601,7 @@ footer .icons li {
     padding-left: 1em;
   }
 
-  .destop-split h2 {
+  .destop-split h3 {
     margin: 0%;
     color: rgba(255, 255, 255, 1);
     font-weight: bold;
@@ -649,7 +649,7 @@ footer .icons li {
     margin: 5em 16em;
   }
 
-  .head-chatbox h2 {
+  .head-chatbox h3 {
     color: #9390ff;
     font-weight: bold;
     font-size: 40px;
@@ -747,7 +747,7 @@ footer .icons li {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .items {
     justify-content: center;
   }
@@ -758,4 +758,4 @@ footer .icons li {
   .hidden {
     display: none;
   }
-}
+} 
