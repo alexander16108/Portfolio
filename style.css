@@ -31,7 +31,6 @@ body {
 /* general-button */
 
 button {
-
   font-size: 12px;
   padding: 12px;
   border: none;
@@ -49,7 +48,7 @@ form .button {
 
 button:enabled {
   background-color: rgba(75, 69, 158, 1);
-  color: #ffffff;
+  color: #fff;
   box-shadow: 0 4px 13px 0 rgba(255, 255, 255, 3);
 }
 
