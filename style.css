@@ -31,7 +31,7 @@ body {
 /* general-button */
 
 button {
-  color: #fcfcfc;
+
   font-size: 12px;
   padding: 12px;
   border: none;
@@ -48,7 +48,8 @@ form .button {
 }
 
 button:enabled {
-  background-color: #1a76ee;
+  background-color: #0055c5;
+  color: #ffffff;
 }
 
 button:hover {
