@@ -18,7 +18,7 @@ Additional description about the project and its features.
 
 
 # Online version of this project 
-https://alexander16108.github.io/
+[click here to view page](https://alexander16108.github.io/destop-version/)
 
 # Usage
 This is used for learning purposes. Feel free to collaborate.
