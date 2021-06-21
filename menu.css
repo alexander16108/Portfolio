@@ -1,0 +1,60 @@
+nav {
+  padding-bottom: 30px;
+}
+
+nav .open-menu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.close-menu {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .envelope {
+    display: none;
+  }
+
+  nav .nav-links {
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #191765;
+    transition: left 1s ease;
+    display: inline-block;
+  }
+
+  .right-nav {
+    padding-top: 7em;
+  }
+
+  .right-nav li {
+    padding: 1.9em;
+  }
+
+  .close-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .open-menu {
+    display: block;
+  }
+
+  .right-nav li .fa-chevron-right {
+    padding-left: 12em;
+  }
+
+  .about {
+    padding-left: 15px;
+  }
+}

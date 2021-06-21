@@ -97,12 +97,12 @@ header {
   text-decoration: none;
 }
 
-.hamburger-menu a {
+.open-menu a {
   text-decoration: none;
   color: #acb7c3;
 }
 
-.hamburger-menu {
+.open-menu {
   top: 0%;
   left: 90%;
   display: flex;
@@ -343,8 +343,9 @@ footer .icons li {
 @media screen and (min-width: 769px) {
   /* cleahidden */
 
-  .hamburger-menu,
-  .name {
+  .open-menu,
+  .name,
+  .fa-chevron-right {
     display: none;
   }
 
