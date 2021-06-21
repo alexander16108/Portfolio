@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/dd085802a7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./menu.css">
   <title>Alexander's Project Oasis</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBY2Z0GHY4"></script>
@@ -26,14 +26,15 @@
 <body>
   <nav class="destop-version">
       <a href="#" class="my-logo">Alexander</a>
-    <nav class="hamburger-menu">
+    <div class="open-menu">
       <a href="#"><i class="fa fa-bars"></i></a>
-    </nav>
+    </div>
         <ul class="nav-links hidden right-nav">
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right"></i></span></a></li>
+          <li><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
+          <li><a href="#Contact">Contact<span><i class="fas fa-chevron-right"></i></span></a></li>
           <li class="envelope"><i class="fas fa-envelope-square"></i></li>
+          <li class="close-menu"><i class="fas fa-times"></i></li>
         </ul>
     </nav>
 
@@ -250,5 +251,8 @@
           alexandermayowa05@gmail.com
         </a>
   </footer>
+  <script src="./app.js">
+
+  </script>
 </body>
 </html>
