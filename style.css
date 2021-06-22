@@ -112,16 +112,16 @@ nav .open-menu {
     position: fixed;
     z-index: 10;
     align-items: center;
-    justify-content: center;
     text-align: left;
     background-color: #191765;
-    transition: top 2s ease;
-    display: flex;
+    transition: top 1s ease;
+    display: none;
     flex-direction: column;
   }
 
   .right-nav {
-    padding-top: 4em;
+    padding-top: 7em;
+    padding-right: 2em;
   } 
 
  .right-nav li {
