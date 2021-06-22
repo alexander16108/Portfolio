@@ -93,6 +93,8 @@ header {
 
 .fa-times {
 color: white;
+position: absolute;
+top: 5%;
 }
 
 nav .open-menu {
@@ -106,13 +108,15 @@ nav .open-menu {
   }
   nav .nav-links {
     height: 100vh;
+    width: 100%;
     top: 0%;
     left: 0%;
     right: 0%;
     position: fixed;
     z-index: 10;
-    align-items: center;
+    align-items: left;
     text-align: left;
+    margin-left: 0%;
     background-color: #191765;
     transition: top 1s ease;
     display: none;
@@ -121,7 +125,7 @@ nav .open-menu {
 
   .right-nav {
     padding-top: 7em;
-    padding-right: 2em;
+    padding-right: 2.7em;
   } 
 
  .right-nav li {
@@ -135,12 +139,27 @@ nav .open-menu {
     right: 20px;
   } 
 
+  .first {
+    position: absolute;
+    top: 25%;
+  }
+
+  .second {
+    position: absolute;
+    top: 40%;
+  }
+
+  .last {
+    position: absolute;
+    top: 54%;
+  }
+
   .open-menu {
     display: block;
   }
 
   .right-nav li .fa-chevron-right {
-    padding-left: 12em;
+    padding-left: 10em;
   }
 
   .about {
