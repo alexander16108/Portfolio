@@ -91,6 +91,8 @@ header {
   margin: 0 10px;
 }
 
+/* for DOMs manipulation and effect */
+
 .fa-times {
 color: white;
 position: absolute;
