@@ -94,7 +94,7 @@ header {
 .fa-times {
 color: white;
 position: absolute;
-top: 5%;
+top: 15%;
 }
 
 nav .open-menu {
@@ -142,16 +142,19 @@ nav .open-menu {
   .first {
     position: absolute;
     top: 25%;
+    left: 27%;
   }
 
   .second {
     position: absolute;
     top: 40%;
+    left: 27%;
   }
 
   .last {
     position: absolute;
     top: 54%;
+    left: 27%;
   }
 
   .open-menu {
@@ -160,10 +163,6 @@ nav .open-menu {
 
   .right-nav li .fa-chevron-right {
     padding-left: 10em;
-  }
-
-  .about {
-    padding-left: 16px;
   }
 }
 
