@@ -150,7 +150,7 @@ nav .open-menu {
   }
 
   .open-menu {
-    position: fixed;
+    position: absolute;
   }
 
   .first {
