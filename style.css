@@ -91,24 +91,93 @@ header {
   margin: 0 10px;
 }
 
-.my-logo a {
-  color: #ffff;
-  font-size: 18px;
-  text-decoration: none;
+/* for DOMs manipulation and effect */
+
+.fa-times {
+  color: white;
+  position: absolute;
+  top: 15%;
 }
 
-.hamburger-menu a {
-  text-decoration: none;
-  color: #acb7c3;
-}
-
-.hamburger-menu {
+.open-menu {
   top: 0%;
   left: 90%;
   display: flex;
   position: absolute;
   padding: 0%;
   justify-items: end;
+}
+
+nav .open-menu {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .envelope {
+    display: none;
+  }
+
+  nav .nav-links {
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    z-index: 10;
+    text-align: left;
+    margin-left: 0%;
+    background-color: #191765;
+    transition: top 1s ease;
+    display: none;
+    flex-direction: column;
+  }
+
+  .right-nav {
+    padding-top: 7em;
+    padding-right: 2.7em;
+  }
+
+  .right-nav li {
+    padding: 1.9em 0;
+  }
+
+  .close-menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .open-menu {
+    position: absolute;
+  }
+
+  .first {
+    position: fixed;
+    margin-left: 12em;
+  }
+
+  .second {
+    position: fixed;
+    margin-left: 13em;
+  }
+
+  .last {
+    position: fixed;
+    margin-left: 12em;
+  }
+}
+
+.my-logo a {
+  color: #ffff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.open-menu a {
+  text-decoration: none;
+  color: #acb7c3;
 }
 
 .header,
@@ -343,8 +412,9 @@ footer .icons li {
 @media screen and (min-width: 769px) {
   /* cleahidden */
 
-  .hamburger-menu,
-  .name {
+  .open-menu,
+  .name,
+  .fa-chevron-right {
     display: none;
   }
 
@@ -365,6 +435,13 @@ footer .icons li {
   }
 
   /* header */
+  nav {
+    padding-bottom: 30px;
+  }
+
+  .close-menu {
+    display: none;
+  }
 
   .nav-links li {
     padding: 0 1.5em;
@@ -373,7 +450,6 @@ footer .icons li {
   .nav-links {
     top: 1.7em;
     display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0;
     position: absolute;
@@ -718,6 +794,14 @@ footer .icons li {
   textarea {
     width: 565px;
     height: 108px;
+  }
+
+  form input.error {
+    border-color: #e74c3c;
+  }
+
+  form input.success {
+    border-color: #c3e6cb;
   }
 
   /* footer */
