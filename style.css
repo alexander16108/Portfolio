@@ -120,7 +120,6 @@ nav .open-menu {
 
   nav .nav-links {
     height: 100vh;
-    width: 100%;
     top: 0%;
     left: 0%;
     right: 0%;
@@ -140,7 +139,7 @@ nav .open-menu {
   }
 
   .right-nav li {
-    padding: 1.9em;
+    padding: 1.9em 0;
   }
 
   .close-menu {
@@ -150,30 +149,23 @@ nav .open-menu {
     right: 20px;
   }
 
-  .first {
+  .open-menu {
     position: absolute;
-    top: 25%;
-    left: 27%;
+  }
+
+  .first {
+    position: fixed;
+    margin-left: 12em;
   }
 
   .second {
-    position: absolute;
-    top: 40%;
-    left: 27%;
+    position: fixed;
+    margin-left: 13em;
   }
 
   .last {
-    position: absolute;
-    top: 54%;
-    left: 27%;
-  }
-
-  .open-menu {
-    display: block;
-  }
-
-  .right-nav li .fa-chevron-right {
-    padding-left: 10em;
+    position: fixed;
+    margin-left: 12em;
   }
 }
 
@@ -211,6 +203,14 @@ h1 {
 
 .intro {
   padding: 25px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
 }
 
 section p {
@@ -802,6 +802,14 @@ footer .icons li {
   textarea {
     width: 565px;
     height: 108px;
+  }
+
+  form input.error {
+    border-color: #e74c3c;
+  }
+
+  form input.success {
+    border-color: #c3e6cb;
   }
 
   /* footer */
