@@ -791,6 +791,14 @@ footer .icons li {
     padding: 0 8px;
   }
 
+.fullname {
+  padding-bottom: 1em;
+}
+
+form {
+  padding-top: 3em;
+}
+
   input[type="email"] {
     width: 565px;
   }
@@ -804,13 +812,13 @@ footer .icons li {
     height: 108px;
   }
 
-  form input.error {
+  /* form input.error {
     border-color: #e74c3c;
   }
 
   form input.success {
     border-color: #c3e6cb;
-  }
+  } */
 
   /* footer */
 
