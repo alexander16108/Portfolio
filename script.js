@@ -1,5 +1,6 @@
 //variables for form validation
 var form = document.getElementById("subscribe");
+var fullnameError = document.querySelector(".fullname-message");
 var firstnameError = document.querySelector(".firstname-message");
 var surnameError = document.querySelector(".surname-message");
 var emailError = document.querySelector(".email-message");
@@ -7,12 +8,14 @@ var commentError = document.querySelector(".comment-message");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+  fullnameError.innerHTML = "";
   firstnameError.innerHTML = "";
   surnameError.innerHTML = "";
   emailError.innerHTML = "";
   commentError.innerHTML = "";
   submit.innerHTML = "";
 
+  var fullname = document.getElementById("fullname");
   var firstname = document.getElementById("firstname");
   var surname = document.getElementById("surname");
   var email = document.getElementById("email");
@@ -21,6 +24,9 @@ form.addEventListener("submit", function (e) {
   var error = [];
 
   // adding error messages
+  if (fullname.value.trim().length == 0) {
+    error.push({ fullname: "Please input your name" });
+  }
   if (firstname.value.trim().length == 0) {
     error.push({ firstname: "Please input your name" });
   }
@@ -42,6 +48,9 @@ form.addEventListener("submit", function (e) {
 
   if (error.length > 0) {
     for (let i = 0; i < error.length; i++) {
+      if (error[i]["fullname"]) {
+        fullnameError.innerHTML = error[i]["fullname"];
+      }
       if (error[i]["firstname"]) {
         firstnameError.innerHTML = error[i]["firstname"];
       }
