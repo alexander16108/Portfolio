@@ -13,7 +13,7 @@ form.addEventListener("submit", function (e) {
   surnameError.innerHTML = "";
   emailError.innerHTML = "";
   commentError.innerHTML = "";
-  submit.innerHTML = "";
+  // submit.innerHTML = "";
 
   var fullname = document.getElementById("fullname");
   var firstname = document.getElementById("firstname");
