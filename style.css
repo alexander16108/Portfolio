@@ -35,7 +35,7 @@ button {
   padding: 12px;
   border: none;
   height: 48px;
-  width: 89px;
+  width: 110px;
 }
 
 .button {
@@ -203,6 +203,15 @@ h1 {
 
 .intro {
   padding: 25px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 10px;
 }
 
 section p {
@@ -414,7 +423,8 @@ footer .icons li {
 
   .open-menu,
   .name,
-  .fa-chevron-right {
+  .fa-chevron-right,
+  .fullname {
     display: none;
   }
 
@@ -783,6 +793,14 @@ footer .icons li {
     padding: 0 8px;
   }
 
+  .fullname {
+    padding-bottom: 1em;
+  }
+
+  form {
+    padding-top: 3em;
+  }
+
   input[type="email"] {
     width: 565px;
   }
@@ -796,13 +814,13 @@ footer .icons li {
     height: 108px;
   }
 
-  form input.error {
+  /* form input.error {
     border-color: #e74c3c;
   }
 
   form input.success {
     border-color: #c3e6cb;
-  }
+  } */
 
   /* footer */
 
