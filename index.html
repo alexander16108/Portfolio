@@ -30,9 +30,9 @@
       <a href="#"><i class="fa fa-bars"></i></a>
     </div>
         <ul class="nav-links hidden right-nav">
-          <li><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right first"></i></span></a></li>
-          <li><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
-          <li><a href="#Contact">Contact<span><i class="fas fa-chevron-right last"></i></span></a></li>
+          <li class="close-first"><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right first"></i></span></a></li>
+          <li class="close-second"><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
+          <li class="close-third"><a href="#Contact">Contact<span><i class="fas fa-chevron-right last"></i></span></a></li>
           <li class="envelope"><i class="fas fa-envelope-square"></i></li>
           <li class="close-menu"><i class="fas fa-times"></i></li>
         </ul>
@@ -40,10 +40,10 @@
 
   <section class="first-section mobile-head destop-head">
     <div class="header">
-      <h1 id="About">Alex Odufuye</h1>
+      <h1>Alex Odufuye</h1>
       <h2 class="head-text">Software Developer</h2>
     </div>
-    <div class="intro">
+    <div  id="About" class="intro">
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me..</p>
     </div>
@@ -93,7 +93,7 @@
   </section>
   <section class="multi-post">
     <div class="header work">
-      <h2 id="portfolio"> MY RECENT WORK</h2>
+      <h2> MY RECENT WORK</h2>
     </div>
     <ul>
       <li>
@@ -102,7 +102,7 @@
             <img class="blank portfolio" src="./image/blank-img.png" alt="image-placeholder">
           </div>
           <div class="destop-split">
-            <h3>Multi-Post Stories</h3>
+            <h3 id="portfolio">Multi-Post Stories</h3>
             <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. has
               been the
               industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
@@ -195,41 +195,38 @@
       <div class="head-chatbox">
         <h2 class="hidden-mobile-view" >CONTACT US</h2>
 
-        <h3 class="hidden-destop-view chatbox" id="Contact">Let's Chat!</h3>
+        <h3 class="hidden-destop-view chatbox">Let's Chat!</h3>
 
-        <p class="text">If you have an application you are interested in developing, a feature that you need built or a
-          project
-          that needs coding. I’d love to help with it </p>
+        <p class="text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
       </div>
 
       <div class="form">
-        <form action="https://formspree.io/f/mwkabepk" method="POST" id="subscribe">
-          <div class="name">
-            <input type="text" name="firstname" class="name" placeholder="input name" maxlength="30" minlength="4" required>
-          </div>
+        <form  method="POST" id="subscribe">
+          <!-- <div class="name">
+            <input type="text" name="firstname" id="firstname" class="name" placeholder="input name" maxlength="30" minlength="4" required>
+          </div> -->
 
           <div class="input-name hidden">
             <div class="first-name">
-              <small></small>
-              <input type="text" name="firstname" class="Name" placeholder="First Name" maxlength="30" minlength="4"
-                required>
+              <small class="firstname-message error"></small>
+              <input type="text" name="name" id="firstname" class="Name" placeholder="First Name" maxlength="30" minlength="4">
             </div>
             <div class="second-name">
-              <small></small>
-              <input type="text" name="secondname" class="Name" placeholder="Last Name" maxlength="30" minlength="4" required>
+              <small class="surname-message error"></small>
+              <input type="text" name="name" id="surname" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
             </div>
           </div>
           <div class="email">
-            <small></small>
-            <input type="email" name="replyto" class="Email" placeholder="nothing@yourmail.com" required>
+            <small class="email-message error"></small>
+            <input type="email" name="email" id="email" class="Email" placeholder="nothing@yourmail.com">
           </div>
 
           <div class="text-area">
-            <textarea name="message" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"
-              required></textarea>
+            <small class="comment-message error"></small>
+            <textarea name="message" id="comment" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
           </div>
           <div class="button">
-            <button type="submit"> subscribe </button>
+            <button type="submit" id="submit"> subscribe </button>
           </div>
         </form>
       </div>
@@ -255,6 +252,6 @@
         </a>
   </footer>
   <script src="./app.js"></script>
-  <script src="./form.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
