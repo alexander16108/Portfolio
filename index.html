@@ -115,7 +115,7 @@
                 <li class="ruby"> ruby </li>
               </ul>
             </div>
-            <button type="button">see project</button>
+            <button type="submit" class="view openBtn btnBtn" >see project</button>
           </div>
         </div>
       </li>
@@ -138,7 +138,7 @@
                 <li class="ruby"> ruby </li>
               </ul>
             </div>
-            <button type="button">see project</button>
+            <button type="submit" class="view openBtn btnBtn">see project</button>
           </div>
         </div>
       </li>
@@ -161,7 +161,7 @@
                 <li class="ruby"> ruby </li>
               </ul>
             </div>
-            <button type="button"> see project</button>
+            <button type="submit" class="view openBtn btnBtn"> see project</button>
           </div>
         </div>
       </li>
@@ -172,8 +172,7 @@
           </div>
           <div class="destop-split">
             <h3>Multi-Post Stories</h3>
-            <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. has
-              been the
+            <p class="text">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
               industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
             </p>
             <div class="list list-align">
@@ -184,12 +183,18 @@
                 <li class="ruby"> ruby </li>
               </ul>
             </div>
-            <button type="button">see project</button>
+            <button type="submit" class="view openBtn btnBtn">see project</button>
           </div>
         </div>
       </li>
     </ul>
   </section>
+
+
+  <section class="projects" id="desktop">
+
+  </section>
+    
   <section class="multi-story-5">
     <div class="contact-form multi-story-5">
       <div class="head-chatbox">
@@ -203,9 +208,9 @@
       </div>
 
       <div class="form">
-        <form action="https://formspree.io/f/mwkabepk" method="POST">
+        <form  method="POST" id="subscribe">
           <div class="name">
-            <input type="text" name="name" class="name" placeholder="input name" maxlength="30" minlength="4" required>
+            <input type="text" name="firstname" id="firstname" class="name" placeholder="input name" maxlength="30" minlength="4">
           </div>
 
           <div class="input-name hidden">
@@ -214,16 +219,15 @@
                 required>
             </div>
             <div class="second-name">
-              <input type="text" name="name" class="Name" placeholder="Last Name" maxlength="30" minlength="4" required>
+              <input type="text" name="name" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
             </div>
           </div>
           <div class="email">
-            <input type="email" name="replyto" class="Email" placeholder="nothing@yourmail.com" required>
+            <input type="email" name="replyto" class="Email" placeholder="nothing@yourmail.com">
           </div>
 
           <div class="text-area">
-            <textarea name="message" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"
-              required></textarea>
+            <textarea name="message" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
           </div>
           <div class="button">
             <button type="submit" value="Submit"> Send Feedbacks</button>
@@ -251,8 +255,8 @@
           alexandermayowa05@gmail.com
         </a>
   </footer>
-  <script src="./app.js">
-
-  </script>
+  <script src="./app.js"></script>
+  <script src="./script.js"></script>
+  <script src="./object.js"></script>
 </body>
 </html>
