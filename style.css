@@ -134,7 +134,7 @@ nav .open-menu {
     color: white;
     box-sizing: content-box;
   }
-  .popup-container {
+  .container {
     border: 1px solid white;
   }
 
@@ -163,7 +163,7 @@ nav .open-menu {
   }
 
   .popup-info p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -509,7 +509,7 @@ footer .icons li {
 
 @media screen and (min-width: 769px) {
   /* popup-menu */
-  .popup-container {
+  .container {
     height: 85vh;
     width: 60%;
     top: 10%;
@@ -553,8 +553,12 @@ footer .icons li {
     justify-content: center;
   }
 
+  p {
+    color: rgba(179, 186, 197, 1);
+  }
+
   .popup-info p {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -608,10 +612,6 @@ footer .icons li {
 
   .destop-version {
     padding: 1.7em;
-  }
-
-  p {
-    color: rgba(179, 186, 197, 1);
   }
 
   ul {
