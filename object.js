@@ -3,7 +3,7 @@ const data = {
     {
       key: 0,
       title: "Multi-Post Stories ",
-      image: "./image/Snapshoot_portfolio.png",
+      image: "./image/Snapshoot_Portfolio.png",
       description:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text..",
       tags: ["html", "css", "ruby", "javaScript"],
@@ -14,7 +14,7 @@ const data = {
     {
       key: 1,
       title: "Multi-Post Stories ",
-      image: "./image/Snapshoot_portfolio.png",
+      image: "./image/Snapshoot_Portfolio.png",
       description:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text..",
       tags: ["html", "css", "ruby", "javaScript"],
@@ -25,7 +25,7 @@ const data = {
     {
       key: 2,
       title: "Multi-Post Stories ",
-      image: "./image/Snapshoot_portfolio.png",
+      image: "./image/Snapshoot_Portfolio.png",
       description:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text..",
       tags: ["html", "css", "ruby", "javaScript"],
@@ -37,7 +37,7 @@ const data = {
     {
       key: 3,
       title: "Multi-Post Stories",
-      image: "./image/Snapshoot_portfolio.png",
+      image: "./image/Snapshoot_Portfolio.png",
       description:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text..",
       tags: ["html", "css", "ruby", "javaScript"],
