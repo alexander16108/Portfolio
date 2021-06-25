@@ -30,9 +30,9 @@
       <a href="#"><i class="fa fa-bars"></i></a>
     </div>
         <ul class="nav-links hidden right-nav">
-          <li><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right first"></i></span></a></li>
-          <li><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
-          <li><a href="#Contact">Contact<span><i class="fas fa-chevron-right last"></i></span></a></li>
+          <li class="close-first"><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right first"></i></span></a></li>
+          <li class="close-second"><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
+          <li class="close-third"><a href="#Contact">Contact<span><i class="fas fa-chevron-right last"></i></span></a></li>
           <li class="envelope"><i class="fas fa-envelope-square"></i></li>
           <li class="close-menu"><i class="fas fa-times"></i></li>
         </ul>
@@ -40,10 +40,10 @@
 
   <section class="first-section mobile-head destop-head">
     <div class="header">
-      <h1 id="About">Alex Odufuye</h1>
+      <h1>Alex Odufuye</h1>
       <h2 class="head-text">Software Developer</h2>
     </div>
-    <div class="intro">
+    <div  id="About" class="intro">
       <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me..</p>
     </div>
@@ -93,7 +93,7 @@
   </section>
   <section class="multi-post blur">
     <div class="header work">
-      <h2 id="portfolio"> MY RECENT WORK</h2>
+      <h2> MY RECENT WORK</h2>
     </div>
     <ul>
       
@@ -108,38 +108,42 @@
   <section class="multi-story-5">
     <div class="contact-form multi-story-5">
       <div class="head-chatbox">
-        <h2 class="hidden-mobile-view" >CONTACT US</h2>
+        <h2  id="Contact" class="hidden-mobile-view" >CONTACT US</h2>
 
-        <h3 class="hidden-destop-view chatbox" id="Contact">Let's Chat!</h3>
+        <h3 class="hidden-destop-view chatbox">Let's Chat!</h3>
 
-        <p class="text">If you have an application you are interested in developing, a feature that you need built or a
-          project
-          that needs coding. I’d love to help with it </p>
+        <p class="text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
       </div>
 
       <div class="form">
         <form  method="POST" id="subscribe">
-          <div class="name">
-            <input type="text" name="firstname" id="firstname" class="name" placeholder="input name" maxlength="30" minlength="4">
+          <div class="fullname">
+            <small class="fullname-message error"></small>
+            <input type="text" name="fullname" id="fullname" class="name" placeholder="input name" maxlength="30" minlength="4">
           </div>
 
           <div class="input-name hidden">
             <div class="first-name">
-              <input type="text" name="name" class="Name" placeholder="First Name" maxlength="30" minlength="4">
+              <small class="firstname-message error"></small>
+              <input type="text" name="name" id="firstname" class="Name" placeholder="First Name" maxlength="30" minlength="4">
             </div>
             <div class="second-name">
-              <input type="text" name="name" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
+              <small class="surname-message error"></small>
+              <input type="text" name="name" id="surname" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
             </div>
           </div>
           <div class="email">
-            <input type="email" name="replyto" class="Email" placeholder="nothing@yourmail.com">
+            <small class="email-message error"></small>
+            <input type="email" name="email" id="email" class="Email" placeholder="nothing@yourmail.com">
           </div>
 
           <div class="text-area">
-            <textarea name="message" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
+            <small class="comment-message error"></small>
+            <textarea name="message" id="comment" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
           </div>
           <div class="button">
-            <button type="submit" value="Submit"> Send Feedbacks</button>
+            <button type="submit" id="submit"> subscribe </button>
+            <small class="email-message error"></small>
           </div>
         </form>
       </div>
@@ -167,5 +171,6 @@
   <script src="./app.js"></script>
   <script src="./script.js"></script>
   <script src="./object.js"></script>
+
 </body>
 </html>
