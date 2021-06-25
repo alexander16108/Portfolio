@@ -60,7 +60,7 @@ function implementProjects() {
       <div class="image blank-image">
         <img class="blank portfolio" src="${
           project.image
-        }" alt="image-placeholder">
+        }" alt="project portfolio image">
       </div>
       <div class="destop-split">
         <h3>${project.title}</h3>
