@@ -93,7 +93,7 @@ header {
 
 /* for DOMs manipulation and effect */
 
-.fa-times {
+.close-menu .fa-times {
   color: white;
   position: absolute;
   top: 15%;
@@ -113,7 +113,98 @@ nav .open-menu {
   cursor: pointer;
 }
 
+.blur.filter {
+  filter: blur(10px);
+}
+
 @media screen and (max-width: 769px) {
+  .popup-container {
+    height: 100vh;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    bottom: 4%;
+    position: fixed;
+    z-index: 10;
+    text-align: left;
+    margin-left: 0%;
+    background-color: #373767;
+    transition: top 1s ease;
+    flex-direction: column;
+    color: white;
+    box-sizing: content-box;
+  }
+
+  .container {
+    border: 1px solid white;
+  }
+
+  .popup-close {
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+  }
+
+  .popup-content {
+    display: flex;
+  }
+
+  .popup-img {
+    text-align: center;
+  }
+
+  .popup-img img {
+    max-width: 300px;
+    max-height: 190px;
+  }
+
+  .popup-info {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .popup-info p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 3em;
+    margin: 0;
+  }
+
+  .tech {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid white;
+    padding: 0.5em 0;
+  }
+
+  .popup-button {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+  }
+
+  .btn,
+  .Btn {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px;
+    border: none;
+    width: 95px;
+    background-color: rgba(75, 69, 158, 1);
+    box-shadow: 0 4px 13px 0 rgba(255, 255, 255, 3);
+    cursor: pointer;
+  }
+
+  .btn {
+    justify-self: end;
+  }
+
   .envelope {
     display: none;
   }
@@ -419,6 +510,99 @@ footer .icons li {
 }
 
 @media screen and (min-width: 769px) {
+  /* popup-menu */
+  .container {
+    height: 85vh;
+    width: 60%;
+    top: 10%;
+    left: 17%;
+    right: 0%;
+    bottom: 10%;
+    position: fixed;
+    z-index: 10;
+    text-align: left;
+    margin-left: 0%;
+    background-color: #373767;
+    transition: top 1s ease;
+    flex-direction: column;
+    color: white;
+    box-sizing: content-box;
+  }
+
+  .popup-container {
+    border: 1px solid white;
+  }
+
+  .popup-close {
+    justify-content: end;
+    align-content: center;
+    padding-top: 0.8em;
+  }
+
+  .popup-content {
+    display: grid;
+    grid-template-columns: 90% 10%;
+  }
+
+  .popup-img {
+    text-align: center;
+  }
+
+  .popup-img img {
+    max-width: 490px;
+    max-height: 290px;
+  }
+
+  .popup-info {
+    text-align: center;
+    justify-content: center;
+  }
+
+  p {
+    color: rgba(179, 186, 197, 1);
+  }
+
+  .popup-info p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 1em 7em;
+    margin: 0;
+  }
+
+  .tech {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid white;
+    padding: 2.5em 0;
+  }
+
+  .popup-button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  .btn,
+  .Btn {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px;
+    border: none;
+    height: 48px;
+    width: 95px;
+    background-color: rgba(75, 69, 158, 1);
+    box-shadow: 0 4px 13px 0 rgba(255, 255, 255, 3);
+    cursor: pointer;
+  }
+
+  .btn {
+    justify-self: end;
+  }
+
   /* cleahidden */
 
   .open-menu,
@@ -432,10 +616,6 @@ footer .icons li {
 
   .destop-version {
     padding: 1.7em;
-  }
-
-  p {
-    color: rgba(179, 186, 197, 1);
   }
 
   ul {

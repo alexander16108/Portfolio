@@ -13,7 +13,6 @@ form.addEventListener("submit", function (e) {
   surnameError.innerHTML = "";
   emailError.innerHTML = "";
   commentError.innerHTML = "";
-  // submit.innerHTML = "";
 
   var fullname = document.getElementById("fullname");
   var firstname = document.getElementById("firstname");
@@ -65,8 +64,22 @@ form.addEventListener("submit", function (e) {
       }
     }
   }
-
-  //  let message = document.getElementById('message')
-
-  //  message.innerText = error
 });
+
+const submitInfo = document.querySelector
+('.submit');
+const collectName = document.querySelectorAll
+('.Name');
+const collectEmail = document.querySelector
+('.Email');
+const collectMessage = document.querySelector
+('.message');
+
+submitInfo.onclick = function() {
+  const collectInfo = {
+    collectName: subject.value,
+    collectEmail: email.value,
+    collectMessage: message.value,
+  };
+  localStorage.setItem('collectInfo', JSON.stringify(collectInfo));
+} 
