@@ -91,7 +91,7 @@ popupDetails.className = "projects-details";
 function showDetails(projectIndex) {
   const myIndex = Number(projectIndex);
   const projectsCode = `
-  <div class="popup-container">
+  <div class="popup container">
   <div class = "popup-content">
   <h3 class=" popup-title">${myProjects[myIndex].title}</h3>
   <span id="close-popup"><i class = "fas fa-times popup-close"></i></span>
