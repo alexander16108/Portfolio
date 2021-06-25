@@ -134,6 +134,7 @@ nav .open-menu {
     color: white;
     box-sizing: content-box;
   }
+
   .container {
     border: 1px solid white;
   }
@@ -157,6 +158,7 @@ nav .open-menu {
     max-width: 300px;
     max-height: 190px;
   }
+
   .popup-info {
     text-align: center;
     justify-content: center;
@@ -526,6 +528,7 @@ footer .icons li {
     color: white;
     box-sizing: content-box;
   }
+
   .popup-container {
     border: 1px solid white;
   }
@@ -535,6 +538,7 @@ footer .icons li {
     align-content: center;
     padding-top: 0.8em;
   }
+
   .popup-content {
     display: grid;
     grid-template-columns: 90% 10%;
@@ -548,6 +552,7 @@ footer .icons li {
     max-width: 490px;
     max-height: 290px;
   }
+  
   .popup-info {
     text-align: center;
     justify-content: center;
