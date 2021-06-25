@@ -118,16 +118,16 @@
       <div class="form">
         <form  method="POST" id="subscribe">
           <div class="fullname">
-            <small class="fullname-message error"></small>
-            <input type="text" name="fullname" id="fullname" class="name" placeholder="input name" maxlength="30" minlength="4">
+            <small class="fullname-message error name"></small>
+            <input type="text" name="fullname" id="fullname" class="Name" placeholder="input name" maxlength="30" minlength="4">
           </div>
 
-          <div class="input-name hidden">
+          <div class="input-name hidden name">
             <div class="first-name">
               <small class="firstname-message error"></small>
               <input type="text" name="name" id="firstname" class="Name" placeholder="First Name" maxlength="30" minlength="4">
             </div>
-            <div class="second-name">
+            <div class="second-name name">
               <small class="surname-message error"></small>
               <input type="text" name="name" id="surname" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
             </div>
@@ -142,7 +142,7 @@
             <textarea name="message" id="comment" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
           </div>
           <div class="button">
-            <button type="submit" id="submit"> subscribe </button>
+            <button type="submit" class="btn sumbit" id="submit"> subscribe </button>
             <small class="email-message error"></small>
           </div>
         </form>
