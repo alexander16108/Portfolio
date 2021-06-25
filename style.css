@@ -165,7 +165,7 @@ nav .open-menu {
   }
 
   .popup-info p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
@@ -552,7 +552,7 @@ footer .icons li {
     max-width: 490px;
     max-height: 290px;
   }
-  
+
   .popup-info {
     text-align: center;
     justify-content: center;
@@ -563,7 +563,7 @@ footer .icons li {
   }
 
   .popup-info p {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -576,7 +576,6 @@ footer .icons li {
     display: flex;
     justify-content: center;
     border-left: 1px solid white;
-    /* border-right: 1px solid white; */
     padding: 2.5em 0;
   }
 
