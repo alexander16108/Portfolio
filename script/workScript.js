@@ -36,7 +36,7 @@ const workData = [
   },
   {
     id: 6,
-    name: 'todo-list',
+    name: 'Space Travellers Hub',
     photo: './Images/worldfoods.png',
     languages_list: ['JavaScript', 'HTML/CSS'],
     btn_text: 'See Project',
@@ -143,11 +143,11 @@ const workPopUp = [
     languages_list: ['JavaScript', 'Webpack', 'HTML/CSS'],
     desktoplist: ['Codekit', 'Github', 'Bootstrap', 'Terminal'],
     btn_text: 'See Project',
-    description: 'The JavaScript capstone project (World Food) is about building our own web application based on an external API. The webapp have 2 user interfaces.',
-    heading: 'WorldFood App',
+    description: 'In this project, we built a space travelers application with React and Redux. Here, users can navigate between Rockets, Missions, and Dragons.',
+    heading: 'Space Travellers Hub',
     firstBtn: 'See Live',
     secondBtn: 'See Source',
-    liveLink: 'https://medaminedev66.github.io/javascript-capstone/',
+    liveLink: 'https://spacexapi-demo.netlify.app/',
     sourceLink: 'https://github.com/ridaarif98/javascript-capstone',
   },
 ];
