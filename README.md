@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ridaarif98.github.io/NewPortfolio/)
+[Live Demo Link]()
 
 
 
@@ -41,9 +41,9 @@
 
 ## 👤 Author
 
-- GitHub: [@githubhandle](https://github.com/ridaarif98)
-- Twitter: [@twitterhandle](https://twitter.com/Rida29984906)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rida-arif-90945520b/)
+- GitHub: [@githubhandle](https://github.com/alexander16108)
+- Twitter: [@twitterhandle](https://twitter.com/alexander-mayowa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/codingrex/)
 
 
 ## Acknowledgments
@@ -55,7 +55,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ridaarif98/NewPortfolio/issues).
+Feel free to check the [issues page](https://github.com/alexander16108/Portfolio/issues).
 
 
 
