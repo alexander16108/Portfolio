@@ -1,59 +1,64 @@
+# MyPortfolio
+# This is MyPortfolio Project
+
+   This is a mobile-first portfolio project built using Semantic HTML, CSS and JavaScript. It includes the navigation bar, the headline, a list of past projects(which includes skills, languages and frameworks used), the about section and a contact form.
+   Also add github Pages to make my Portfolio online available.
 
 
-# My Portfolio Destop Version
-This project is a Microverse task to build personal portfolio, to parse a Figma design, use Flexbox, CSS Grid and float to place elements in the page, media-queries to adjust the webpage to different screen size. It covers html and css and applying linters on each of them.
+  
 
-Additional description about the project and its features.
+  ![screenshot](./Images/newPort.png)
+  
+  ## Built With
 
-# Built With
-- Html + Css
+- Html,CSS, Javascript
+- Git, Github
+- Visual Studio Code
 
-# Screenshot
+## Live Demo
 
-![image](https://user-images.githubusercontent.com/60612329/121685237-986c6a80-cab7-11eb-8375-7fb5ded34c74.png)
-![image](https://user-images.githubusercontent.com/60612329/121685329-b3d77580-cab7-11eb-9c0c-24404f7e8350.png)
-![image](https://user-images.githubusercontent.com/60612329/121685400-cb166300-cab7-11eb-9d79-e843f4cd1108.png)
-![image](https://user-images.githubusercontent.com/60612329/121685464-dd909c80-cab7-11eb-80c2-7d5afc52db03.png)
-
-
-
-# Online version of this project 
-[click here to view page](https://alexander16108.github.io/Portfolio/)
-
-# Usage
-This is used for learning purposes. Feel free to collaborate.
+[Live Demo Link](https://ridaarif98.github.io/NewPortfolio/)
 
 
 
-> # To clone Repository locally
-> - copy link of the repository from the the code section and copy the link (HTTP, SSH, GitHub CLI)
-> - open up your terminal or vscode and initiate your file location and paste link to clone from github
-> - once done open the newly cloned project in your vscode and start editting the code
+## Getting Started
 
-# Run tests
-To locally run tests using html and css linters.
+**This is an example of how you may create your mobile and desktop responsive porfolio**
 
-Use:
+## Prerequisites
 
-For HTML:
+### Local Usage
+- Create repository
+- Clone it local device using git
+- Add files , commit and push them to github
+- Run linters 
+- Deploy to resolve errors
 
-
-- npx hint .
-
-
-For CSS:
-
-
-- npx stylelint "**/*.{css,scss}" 
+### Tools needed to run project locally
+- Git
+- Visual Studio Code
 
 
-> # Authors
-👤 Alexander Odufuye
-- GitHub: @alexandder16108
+## 👤 Author
+
+- GitHub: [@githubhandle](https://github.com/ridaarif98)
+- Twitter: [@twitterhandle](https://twitter.com/Rida29984906)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rida-arif-90945520b/)
 
 
-# 🤝 Contributing
+## Acknowledgments
+
+- Figma : [Figma Template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=1%3A468)
+
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-# Show your support
-Please. Give a ⭐️ if you like this project!
+Feel free to check the [issues page](https://github.com/ridaarif98/NewPortfolio/issues).
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
