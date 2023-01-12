@@ -1,176 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>My Portfolio</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R9EKMEMMZB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <script src="https://kit.fontawesome.com/dd085802a7.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./style.css">
-  <!-- <link rel="stylesheet" href="./menu.css"> -->
-  <title>Alexander's Project Oasis</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FBY2Z0GHY4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FBY2Z0GHY4');
-</script>
-
-</head>
-
-<body >
-  <nav class="destop-version">
-      <a href="#" class="my-logo">Alexander</a>
-    <div class="open-menu">
-      <a href="#"><i class="fa fa-bars"></i></a>
-    </div>
-        <ul class="nav-links hidden right-nav">
-          <li class="close-first"><a href="#portfolio">Portfolio <span><i class="fas fa-chevron-right first"></i></span></a></li>
-          <li class="close-second"><a href="#About" class="about">About<span><i class="fas fa-chevron-right second"></i></span></a></li>
-          <li class="close-third"><a href="#Contact">Contact<span><i class="fas fa-chevron-right last"></i></span></a></li>
-          <li class="envelope"><i class="fas fa-envelope-square"></i></li>
-          <li class="close-menu"><i class="fas fa-times"></i></li>
+      gtag('config', 'G-R9EKMEMMZB');
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#"><h1>Welcome</h1></a>
+      <nav class="nav-bar">
+        <ul class="nav-bar-list">
+          <li><a class="menuLink" href="#portfolio">Portfolio</a></li>
+          <li><a class="menuLink" href="#AboutME">About</a></li>
+          <li><a class="menuLink" href="#contact">Contact</a></li>
         </ul>
-    </nav>
 
-  <section class="first-section mobile-head destop-head">
-    <div class="header">
-      <h1>Alex Odufuye</h1>
-      <h2 class="head-text">Software Developer</h2>
-    </div>
-    <div  id="About" class="intro">
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
-        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me..</p>
-    </div>
-    <div class="items">
-        <ul class="list-languages">
-          <li class="mini-tag">Language</li>
-          <li>Javascript</li>
-          <li>Ruby</li>
-          <li>Html</li>
-          <li>Css</li>
-        </ul>
-        <ul class="list-frameworks">
-          <li class="mini-tag">Frameworks</li>
-          <li>Bootstrap</li>
-          <li>Ruby on Rails</li>
-          <li>RSPec</li>
-          <li>CapyBara</li>
-          <li></li>
-        </ul>
-        <ul class="list-skills">
-          <li class="mini-tag">Gitlabs</li>
-          <li>Codekit</li>
-          <li>Github</li>
-          <li>Codepen</li>
-          <li>Terminal</li>
-        </ul>
-    </div>
-    <div class="icon">
-      <div class="work-1">
-        <p>work</p> 
+        <i class="ham">
+          <i class="menuIcon fa fa-bars"></i>
+          <i class="xIcon fa fa-close"></i>
+        </i>
+      </nav>
+    </header>
+    <section>
+      <section class="headline col-12" id="portfolio">
+        <hgroup class="section-heading">
+          <h1>Hey there. I'm Alexander Odufuye</h1>
+          <h2>
+            <span>A</span>
+            <span>Full-stack</span>
+            <span>web</span>
+            <span>developer</span>
+          </h2>
+          
+        </hgroup>
+        <div class="headline-detail">
+          <p>
+            Enjoy creating things that live on the Internet. 
+            I build websites with a focus on responsive design and accessibility.
+            I like to provide solutions for people's projects and businesses that are challenging.
+            A passionate person who works hard to pursue his dreams and is results-oriented. 
+          </p>
+          <div class="icon-link">
+            <ul>
+              <li>
+                <a href="https://angel.co/u/codingrex"
+                  ><span class="fa fa-angellist"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/alexander16106"
+                  ><span class="fa fa-github"></span
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/codingrex/"
+                  ><span class="fa fa-linkedin"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <i class="fa fa-chevron-circle-down"></i>
+        </div>
+      </section>
+    </section>
+    <section class="Work">
+      <h1>My Recent Works</h1>
+      <hr />
+      <ul class="grid-items" id="dynamicWork"></ul>
+    </section>
+
+    <section class="mobilePopup" id="firstPopup"></section>
+
+    <section class="aboutMe" id="AboutME">
+      <h1>About me</h1>
+      <p>
+        I can build websites using HTML, CSS, JavaScript, React, Redux, Ruby on Rails, and other frameworks and libraries. 
+        I spend most days learning and building up, either starting it from scratch or adding some customized features and functionality for outdated websites to make them shine again. 
+        I can help you build the product and featured websites. 
+        If you like my work and have a project, don't hesitate to contact me.
+      </p>
+      <div class="See-btn">
+        <a href="./Images/resume.pdf" target="_blank">
+        <button type="button" class="see-Resume" id="myResume">
+          Get My Resume
+        </button>
+      </a>
       </div>
-      <div class="icon-links">
-        <ul class="icon-links">
-          <li><a href="portfolio"><img src="./image/github.png" alt="github-icon"></a></li>
-
-          <li><a href="#"><img src="./image/Vector.png" alt="vector-icon"></a></li>
-
-          <li><a href="#"><img src="./image/twitter.png" alt="twitter-icon"></a></li>
-
-          <li><a href="#"><img src="./image/angellist.png" alt="angellist-icon"></a></li>
-        </ul>
-      </div>
-      <div class="work-2">
-        <p>work</p> 
-      </div>
-    </div>
-  </section>
-  <section class="multi-post blur">
-    <div class="header work">
-      <h2> MY RECENT WORK</h2>
-    </div>
-    <ul>
-      
-    </ul>
-  </section>
-
-
-  <section class="projects" id="desktop">
-
-  </section>
-    
-  <section class="multi-story-5">
-    <div class="contact-form multi-story-5">
-      <div class="head-chatbox">
-        <h2  id="Contact" class="hidden-mobile-view" >CONTACT US</h2>
-
-        <h3 class="hidden-destop-view chatbox">Let's Chat!</h3>
-
-        <p class="text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      </div>
-
-      <div class="form">
-        <form  method="POST" id="subscribe">
-          <div class="fullname">
-            <small class="fullname-message error name"></small>
-            <input type="text" name="fullname" id="fullname" class="Name" placeholder="input name" maxlength="30" minlength="4">
+    </section>
+    <section class="languages">
+      <ul class="languageList">
+        <li class="languageDetail">
+          <ul class="imgDiv">
+            <li><img src="./Images/elipse.png" alt="Ellipse" /></li>
+            <li>Frontend</li>
+          </ul>
+          <div class="list-language">
+            <ul>
+              <li>React</li>
+              <li>Redux</li>
+              <li>JavaScript</li>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>Figma</li>
+              <li>Bootstrap</li>
+            </ul>
           </div>
-
-          <div class="input-name hidden name">
-            <div class="first-name">
-              <small class="firstname-message error"></small>
-              <input type="text" name="name" id="firstname" class="Name" placeholder="First Name" maxlength="30" minlength="4">
-            </div>
-            <div class="second-name name">
-              <small class="surname-message error"></small>
-              <input type="text" name="name" id="surname" class="Name" placeholder="Last Name" maxlength="30" minlength="4">
-            </div>
+        </li>
+        <li class="languageDetail">
+          <ul class="imgDiv">
+            <li><img src="./Images/elispe2.png" alt="Ellipse" /></li>
+            <li>Backend Testing</li>
+          </ul>
+          <div class="list-language">
+            <ul>
+              <li>Ruby</li>
+              <li>PostgreSQL</li>
+              <li>Ruby on Rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Jest</li>
+            </ul>
           </div>
-          <div class="email">
-            <small class="email-message error"></small>
-            <input type="email" name="email" id="email" class="Email" placeholder="nothing@yourmail.com">
+        </li>
+        <li class="languageDetail third-skill">
+          <ul class="imgDiv">
+            <li><img src="./Images/elipse4.png" alt="Ellipse" /></li>
+            <li>Other Professional Skills</li>
+          </ul>
+          <div class="list-language">
+            <ul>
+              <li>Git, Github</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
+              <li>Remote Pair-Programming</li>
+              <li>Teamwork</li>
+              <li>Bitbucket</li>
+              <li>Dev Tools</li>
+            </ul>
           </div>
-
-          <div class="text-area">
-            <small class="comment-message error"></small>
-            <textarea name="message" id="comment" maxlength="500" class="message" cols="46" rows="12" placeholder="Enter Your Text"></textarea>
-          </div>
-          <div class="button">
-            <button type="submit" class="btn sumbit" id="submit"> subscribe </button>
-            <small class="email-message error"></small>
-          </div>
+        </li>
+      </ul>
+    </section>
+    <footer class="aboutContact">
+      <div class="formResponsive">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <form
+          action="https://formspree.io/f/mvodrqbw"
+          method="POST"
+          class="contactForm"
+          id="contact"
+        >
+          <input
+            type="text"
+            name="user_name"
+            id="username"
+            placeholder="Full Name"
+            maxlength="30"
+            required
+          />
+          <input
+            type="email"
+            name="user_email"
+            id="email"
+            placeholder="Email address"
+          />
+          <small></small>
+          <textarea
+            name="user_text"
+            id="msg"
+            maxlength="500"
+            placeholder="Enter the text here"
+            required
+          ></textarea>
+          <button type="submit" class="contactBtn">Get in Touch</button>
         </form>
       </div>
-    </div>
-  </section>
-  <footer class="footer-bottom">
-      <ul class="icons">
-        <li><a href="#">
-            <img src="./image/github.png" alt="github-bottom-icon">
-          </a></li>
-        <li><a href="#">
-            <img src="./image/angellist.png" alt="angellist-bottom-icon">
-          </a></li>
-        <li><a href="#">
-            <img src="./image/twitter.png" alt="twitter-bottom-icon">
-          </a></li>
-        <li><a href="#">
-            <img src="./image/Vector.png" alt="vector-bottom-icon">
-          </a></li>
+      <div class="icon-link icon-bg">
+        <ul>
+          <li>
+            <a href="https://twitter.com/Rida29984906"
+              ><span class="fa fa-twitter"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://angel.co/u/codingrex"
+              ><span class="fa fa-angellist"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/alexander16108"
+              ><span class="fa fa-github"></span
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/codingrex/"
+              ><span class="fa fa-linkedin"></span
+            ></a>
+          </li>
         </ul>
-        <a href="Contact" class="email-link">
-          alexandermayowa05@gmail.com
-        </a>
-  </footer>
-  <script src="./app.js"></script>
-  <script src="./script.js"></script>
-  <script src="./object.js"></script>
-
-</body>
+      </div>
+      <div class="email-link"><p>alexandermayowa05@gmail.com</p></div>
+      <hr class="footerHr" />
+    </footer>
+    <script src="./script/storage.js"></script>
+    <script src="./script/validation.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/workScript.js"></script>
+  </body>
 </html>
