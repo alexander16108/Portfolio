@@ -17,7 +17,7 @@ const workData = [
     id: 3,
     name: 'Portfolio Project',
     photo: './Images/budgetapps.png',
-    languages_list: ['Ruby on Rails', 'Postgresql', 'Bootstrap'],
+    languages_list: ['TypeScript', 'Javascript', 'Sass'],
     btn_text: 'See Project',
   },
   {
