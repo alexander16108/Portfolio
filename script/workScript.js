@@ -15,7 +15,7 @@ const workData = [
   },
   {
     id: 3,
-    name: 'Budget App',
+    name: 'Portfolio Project',
     photo: './Images/budgetapp.png',
     languages_list: ['Ruby on Rails', 'Postgresql', 'Bootstrap'],
     btn_text: 'See Project',
@@ -29,14 +29,14 @@ const workData = [
   },
   {
     id: 5,
-    name: 'Metrics Webapp',
+    name: 'Covid Checker',
     photo: './Images/metricsapp.png',
     languages_list: ['React', 'Redux', 'API', 'Html/CSS'],
     btn_text: 'See Project',
   },
   {
     id: 6,
-    name: 'WorldFood App',
+    name: 'todo-list',
     photo: './Images/worldfood.png',
     languages_list: ['JavaScript', 'HTML/CSS'],
     btn_text: 'See Project',
