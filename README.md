@@ -40,6 +40,7 @@
 
 
 ## 👤 Author
+**Alexander Odufuye**
 
 - GitHub: [@githubhandle](https://github.com/alexander16108)
 - Twitter: [@twitterhandle](https://twitter.com/alexander-mayowa)
