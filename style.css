@@ -214,6 +214,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  border: none;
 }
 
 .icon-link ul {
@@ -1118,6 +1119,7 @@ body {
     padding-top: 4px;
     margin-top: 0;
     margin-bottom: 20px;
+    border: none;
   }
 
   .headline .fa-chevron-circle-down {
