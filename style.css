@@ -831,7 +831,7 @@ body {
   }
 
   .formResponsive p {
-    width: 40%;
+    /* width: 40%; */
     font-weight: bold;
     font-size: x-large;
     line-height: 46px;
