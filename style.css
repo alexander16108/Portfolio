@@ -1026,6 +1026,7 @@ body {
   .aboutContact .icon-bg {
     border-top: solid 1px #dfe1e6;
     width: 100%;
+    display: none;
   }
 
   .aboutContact .email-link {
