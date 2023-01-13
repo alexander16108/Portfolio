@@ -856,6 +856,7 @@ body {
     background-color: #fff;
     height: 10vh;
     position: fixed;
+    z-index: 1000;
   }
 
   .header .nav-bar ul {
