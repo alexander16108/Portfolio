@@ -24,6 +24,8 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-color: #fff;
+  z-index: 1000;
 }
 
 .nav-bar-list {
@@ -35,6 +37,9 @@ body {
   top: 16px;
   margin-top: 24px;
   margin-bottom: 60px;
+  background-color: #fff;
+  color:black;
+  z-index: 1000;
 }
 
 .nav-bar-list li {
@@ -210,6 +215,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  border: none;
 }
 
 .icon-link ul {
@@ -529,7 +535,7 @@ body {
   justify-content: center;
 }
 
-.aboutMe h1 {
+.aboutMe h1, .aboutContact h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -705,7 +711,7 @@ body {
 @media (max-width: 768px) {
   .ham {
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     top: 1rem;
     right: 1rem;
     width: 3rem;
@@ -730,7 +736,6 @@ body {
     height: 100%;
     color: black;
     background-color: white;
-    z-index: 1;
     transform: translateY(-100%);
     transition: transform 0.2s;
     list-style: none;
@@ -823,6 +828,14 @@ body {
   .mobileButtonDiv ul li {
     margin-bottom: 3px;
   }
+
+  .formResponsive p {
+    font-weight: bold;
+    font-size: x-large;
+    line-height: 46px;
+    text-align: center;
+    justify-items: center;
+  }
 }
 
 /* Media query for medium screen */
@@ -860,6 +873,7 @@ body {
 
   .header .nav-bar ul {
     display: block;
+    background-color: #fff;
   }
 
   .mobileButtonDiv ul li {
@@ -868,6 +882,7 @@ body {
 
   .header .nav-bar ul li {
     padding: 10px 10px;
+    z-index: 1000;
   }
 
   .headline {
@@ -910,7 +925,7 @@ body {
 
   .formResponsive p {
     width: 100%;
-    line-height: 52px;
+    line-height: 48px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -921,9 +936,9 @@ body {
   }
 
   .headline .icon-link {
-    padding-top: 4px;
+    padding-top: 6px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .headline .fa-chevron-circle-down {
@@ -1019,6 +1034,7 @@ body {
   .aboutContact .icon-bg {
     border-top: solid 1px #dfe1e6;
     width: 100%;
+    display: none;
   }
 
   .aboutContact .email-link {
@@ -1055,6 +1071,7 @@ body {
     background-color: #fff;
     height: 10vh;
     position: fixed;
+    z-index: 1000;
   }
 
   .headline {
@@ -1097,7 +1114,7 @@ body {
 
   .formResponsive p {
     width: 50%;
-    line-height: 52px;
+    line-height: 46px;
     padding-left: 135px;
     padding-right: 25px;
   }
@@ -1108,9 +1125,10 @@ body {
   }
 
   .headline .icon-link {
-    padding-top: 4px;
+    padding-top: 6px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
+    border: none;
   }
 
   .headline .fa-chevron-circle-down {
@@ -1207,7 +1225,7 @@ body {
   }
 
   .aboutContact .email-link {
-    display: none;
+    height: 6vh;
   }
 
   .mobileButtonDiv {
