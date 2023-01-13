@@ -1057,6 +1057,7 @@ body {
     background-color: #fff;
     height: 10vh;
     position: fixed;
+    z-index: 1000;
   }
 
   .headline {
@@ -1209,7 +1210,7 @@ body {
   }
 
   .aboutContact .email-link {
-    height: 8vh;
+    height: 6vh;
   }
 
   .mobileButtonDiv {
