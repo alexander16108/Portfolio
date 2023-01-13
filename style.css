@@ -856,11 +856,11 @@ body {
     background-color: #fff;
     height: 10vh;
     position: fixed;
-    z-index: 1000;
   }
 
   .header .nav-bar ul {
     display: block;
+    background-color: #fff;
   }
 
   .mobileButtonDiv ul li {
@@ -869,6 +869,7 @@ body {
 
   .header .nav-bar ul li {
     padding: 10px 10px;
+    z-index: 1000;
   }
 
   .headline {
@@ -1208,7 +1209,7 @@ body {
   }
 
   .aboutContact .email-link {
-    height: 10vh;
+    height: 8vh;
   }
 
   .mobileButtonDiv {
