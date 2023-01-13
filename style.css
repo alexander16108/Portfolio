@@ -918,7 +918,7 @@ body {
 
   .formResponsive p {
     width: 100%;
-    line-height: 52px;
+    line-height: 48px;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -1107,7 +1107,7 @@ body {
 
   .formResponsive p {
     width: 50%;
-    line-height: 52px;
+    line-height: 46px;
     padding-left: 135px;
     padding-right: 25px;
   }
@@ -1201,12 +1201,6 @@ body {
     flex-direction: row;
     padding-top: 65px;
     margin-bottom: 100px;
-  }
-
-  .formResponsive span {
-    font-size: medium;
-    font-weight: normal;
-    padding-top: .3rem;
   }
 
   .formResponsive .contactForm {
