@@ -1195,6 +1195,11 @@ body {
     margin-bottom: 100px;
   }
 
+  .formResponsive span {
+    font-size: medium;
+    font-weight: normal;
+  }
+
   .formResponsive .contactForm {
     width: 50%;
     padding-right: 135px;
