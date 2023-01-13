@@ -711,7 +711,7 @@ body {
 @media (max-width: 768px) {
   .ham {
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     top: 1rem;
     right: 1rem;
     width: 3rem;
@@ -736,7 +736,6 @@ body {
     height: 100%;
     color: black;
     background-color: white;
-    /* z-index: 100; */
     transform: translateY(-100%);
     transition: transform 0.2s;
     list-style: none;
@@ -831,7 +830,6 @@ body {
   }
 
   .formResponsive p {
-    /* width: 40%; */
     font-weight: bold;
     font-size: x-large;
     line-height: 46px;
