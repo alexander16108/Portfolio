@@ -829,6 +829,15 @@ body {
   .mobileButtonDiv ul li {
     margin-bottom: 3px;
   }
+
+  .formResponsive p {
+    width: 50%;
+    font-weight: 600;
+    font-size: x-large;
+    line-height: 46px;
+    padding-left: 135px;
+    padding-right: 25px;
+  }
 }
 
 /* Media query for medium screen */
