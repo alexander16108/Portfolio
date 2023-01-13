@@ -1207,7 +1207,7 @@ body {
   }
 
   .aboutContact .email-link {
-    padding-bottom: .5rem;
+    height: 10vh;
   }
 
   .mobileButtonDiv {
