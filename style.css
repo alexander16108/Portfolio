@@ -928,9 +928,9 @@ body {
   }
 
   .headline .icon-link {
-    padding-top: 4px;
+    padding-top: 6px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
   }
 
   .headline .fa-chevron-circle-down {
@@ -1117,9 +1117,9 @@ body {
   }
 
   .headline .icon-link {
-    padding-top: 4px;
+    padding-top: 6px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     border: none;
   }
 
