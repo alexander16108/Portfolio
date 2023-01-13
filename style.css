@@ -831,11 +831,11 @@ body {
   }
 
   .formResponsive p {
-    width: 50%;
+    width: 40%;
     font-weight: bold;
     font-size: x-large;
     line-height: 46px;
-    padding-left: 35px;
+    padding-left: 135px;
     padding-right: 25px;
   }
 }
