@@ -1206,9 +1206,9 @@ body {
     width: 100%;
   }
 
-  /* .aboutContact .email-link {
-    display: none;
-  } */
+  .aboutContact .email-link {
+    padding-bottom: .5rem;
+  }
 
   .mobileButtonDiv {
     display: none;
