@@ -134,9 +134,10 @@ const workPopUp = [
     heading: 'Metrics Webapp',
     firstBtn: 'See Live',
     secondBtn: 'See Source',
-    liveLink: 'https://github.com/alexander16108/React-Capstone',
-    sourceLink: 'https://deploy-preview-3--eloquent-leavitt-8c9f5c.netlify.app/',
+    liveLink: 'https://deploy-preview-3--eloquent-leavitt-8c9f5c.netlify.app/',
+    sourceLink: 'https://github.com/alexander16108/React-Capstone',
   },
+  
   {
     id: 6,
     photo: './Images/worldfoods.png',
@@ -148,7 +149,7 @@ const workPopUp = [
     firstBtn: 'See Live',
     secondBtn: 'See Source',
     liveLink: 'https://spacexapi-demo.netlify.app/',
-    sourceLink: 'https://github.com/ridaarif98/javascript-capstone',
+    sourceLink: 'https://github.com/nikoescobal/space-travelers',
   },
 ];
 
