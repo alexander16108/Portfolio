@@ -32,11 +32,10 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
   height: 40px;
   top: 16px;
   margin-top: 24px;
-  margin-bottom: 60px;
   background-color: #fff;
   color:black;
   z-index: 1000;
@@ -868,7 +867,6 @@ body {
     overflow: hidden;
     background-color: #fff;
     height: 8vh;
-    align-items: center;
     position: fixed;
   }
 
