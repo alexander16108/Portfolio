@@ -867,7 +867,8 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: #fff;
-    height: 7vh;
+    height: 8vh;
+    align-items: center;
     position: fixed;
   }
 
@@ -881,7 +882,7 @@ body {
   }
 
   .header .nav-bar ul li {
-    padding: 14px 10px;
+    padding: 10px 10px;
     z-index: 1000;
   }
 
