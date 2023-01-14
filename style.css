@@ -19,10 +19,11 @@ body {
 
 .nav-bar {
   width: 100%;
-  height: 10vh;
+  height: 6vh;
   top: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   background-color: #fff;
   z-index: 1000;
@@ -32,11 +33,11 @@ body {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-content: center;
   height: 40px;
-  top: 16px;
-  margin-top: 24px;
-  margin-bottom: 60px;
+  top: 20px;
+  margin-top: 27px;
+  margin-bottom: 2.3rem;
   background-color: #fff;
   color:black;
   z-index: 1000;
@@ -867,7 +868,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: #fff;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
   }
 
@@ -1069,7 +1070,7 @@ body {
     width: 100%;
     overflow: hidden;
     background-color: #fff;
-    height: 10vh;
+    height: 7vh;
     position: fixed;
     z-index: 1000;
   }
